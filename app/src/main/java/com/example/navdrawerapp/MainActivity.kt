@@ -15,6 +15,6 @@ import com.example.navdrawerapp.ui.theme.NavDrawerAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-     
+     setContentView(R.layout.activity_main)
     }
 }
